@@ -88,4 +88,6 @@ void loop() {
     Serial.print('\t'); 
     Serial.println(1); // Fake Stop Bit
   }
-}
+}//Master pin 11 (TX) → Slave pin 10 (RX)
+
+//GND ↔ GND
